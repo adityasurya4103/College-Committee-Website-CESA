@@ -12,6 +12,7 @@
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
   <!-- Stylesheet Link  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   <link rel="stylesheet" href="stylesheets/style.css" />
 
   <title>CESA</title>
@@ -34,8 +35,9 @@
           <a href="#">&nbsp<i class='bx bx-trophy'></i>&nbspSports</a>
         </div>
       </div>
-      <a href="#">Team</a>
-      <a href="#">Contact</a>
+      <a href="#team">Team</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#footer">Contact</a>
     </nav>
   </header>
 
@@ -44,7 +46,7 @@
   <section class="home" id="home">
     <div class="home-content">
       <h3>AISSMS IOIT</h3>
-      <h1>CESA 2K23</h1>
+      <h1 class="text" data-fill-text="CESA 2K23">CESA <span>2K23</span></h1>
       <h3>Computer Engineering Student Association</h3>
 
       <!-- Social Media  -->
@@ -61,7 +63,7 @@
 
     <!-- logo  -->
     <div class="home-img">
-      <img src="images/main-logo-new.png" alt="logo" />
+      <img src="images/main-logo-new.png" alt="logo" class="logo-image" />
     </div>
   </section>
 
@@ -94,45 +96,213 @@
     </div>
   </section>
 
-  <!-- Testimonial Section -->
-  <!-- <div class="testimonial-container">
-    <div class="testimonial-carousel">
-        <div class="testimonial-card"> <!-- Repeat this card structure for each testimonial -->
-            <img src="testimonial1.jpg" alt="Testimonial 1">
-            <h3>John Doe</h3>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
-        </div>
-        <div class="testimonial-card"> <!-- Repeat this card structure for each testimonial -->
-            <img src="testimonial1.jpg" alt="Testimonial 1">
-            <h3>John Doe</h3>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
-        </div>
-        <div class="testimonial-card"> <!-- Repeat this card structure for each testimonial -->
-            <img src="testimonial1.jpg" alt="Testimonial 1">
-            <h3>John Doe</h3>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
-        </div>
-        <div class="testimonial-card"> <!-- Repeat this card structure for each testimonial -->
-            <img src="testimonial1.jpg" alt="Testimonial 1">
-            <h3>John Doe</h3>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
-        </div>
-        <div class="testimonial-card"> <!-- Repeat this card structure for each testimonial -->
-            <img src="testimonial1.jpg" alt="Testimonial 1">
-            <h3>John Doe</h3>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
-        </div>
-        <div class="testimonial-card"> <!-- Repeat this card structure for each testimonial -->
-            <img src="testimonial1.jpg" alt="Testimonial 1">
-            <h3>John Doe</h3>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
-        </div>
-        
-        <!-- Repeat this card structure for each testimonial -->
-    </div>
-  </div>
- -->
 
+  <!-- Team Section  -->
+  <section class="team" id="team">
+    <h2 class="heading">Our Team</h2>
+    <div class="team-content">
+      <div class="team-img">
+        <img src="images/team2.png" alt="team">
+      </div>
+
+      <div class="team-content">
+        <div>
+          <h3>CESA 2K23</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptas reiciendis magnam vitae. Magnam,
+            fugiat. Optio labore sint facilis repellat.</p>
+        </div>
+        <a href="#" class="btn">Know More</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ~~~~~~~ Testimonials-Section-Start ~~~~~~~~~~~~~ -->
+
+  <section class="testimonials" id="testimonials">
+    <h2 class="heading">Testimonials</h2>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="front">
+              <div>
+                <div class="st-quote">
+                  &#8220;
+                </div>
+                <div class="quote">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore et sed ipsum vel eaque praesentium.
+                  Maiores veritatis deserunt dolores molestias.
+                </div>
+                <div class="end-quote">
+                  &#8221;
+                </div>
+              </div>
+              <div class="author">
+                &#8211; Name
+              </div>
+            </div>
+            <div class="back">
+              <img src="https://source.unsplash.com/random/300×300/?person" alt="">
+              <h2>Name</h2>
+              <h2>Title</h2>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="front">
+              <div>
+                <div class="st-quote">
+                  &#8220;
+                </div>
+                <div class="quote">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore et sed ipsum vel eaque praesentium.
+                  Maiores veritatis deserunt dolores molestias.
+                </div>
+                <div class="end-quote">
+                  &#8221;
+                </div>
+              </div>
+              <div class="author">
+                &#8211; Name
+              </div>
+            </div>
+            <div class="back">
+              <img src="https://source.unsplash.com/random/300×300/?person" alt="">
+              <h2>Name</h2>
+              <h2>Title</h2>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="front">
+              <div>
+                <div class="st-quote">
+                  &#8220;
+                </div>
+                <div class="quote">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore et sed ipsum vel eaque praesentium.
+                  Maiores veritatis deserunt dolores molestias.
+                </div>
+                <div class="end-quote">
+                  &#8221;
+                </div>
+              </div>
+              <div class="author">
+                &#8211; Name
+              </div>
+            </div>
+            <div class="back">
+              <img src="https://source.unsplash.com/random/300×300/?person" alt="">
+              <h2>Name</h2>
+              <h2>Title</h2>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="front">
+              <div>
+                <div class="st-quote">
+                  &#8220;
+                </div>
+                <div class="quote">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore et sed ipsum vel eaque praesentium.
+                  Maiores veritatis deserunt dolores molestias.
+                </div>
+                <div class="end-quote">
+                  &#8221;
+                </div>
+              </div>
+              <div class="author">
+                &#8211; Name
+              </div>
+            </div>
+            <div class="back">
+              <img src="https://source.unsplash.com/random/300×300/?person" alt="">
+              <h2>Name</h2>
+              <h2>Title</h2>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="front">
+              <div>
+                <div class="st-quote">
+                  &#8220;
+                </div>
+                <div class="quote">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore et sed ipsum vel eaque praesentium.
+                  Maiores veritatis deserunt dolores molestias.
+                </div>
+                <div class="end-quote">
+                  &#8221;
+                </div>
+              </div>
+              <div class="author">
+                &#8211; Name
+              </div>
+            </div>
+            <div class="back">
+              <img src="https://source.unsplash.com/random/300×300/?person" alt="">
+              <div>Name</div>
+              <div>Title</div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="swiper-slide">
+          <div class="testimonial-card">
+            <div class="front">
+              <div>
+                <div class="st-quote">
+                  &#8220;
+                </div>
+                <div class="quote">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore et sed ipsum vel eaque praesentium.
+                  Maiores veritatis deserunt dolores molestias.
+                </div>
+                <div class="end-quote">
+                  &#8221;
+                </div>
+              </div>
+              <div class="author">
+                &#8211; Name
+              </div>
+            </div>
+            <div class="back">
+              <img src="https://source.unsplash.com/random/300×300/?person" alt="">
+              <h2>Name</h2>
+              <h2>Title</h2>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <!-- ~~~~~~~ Testimonials-Section-End ~~~~~~~~~~~~~ -->
 
 
 
@@ -152,67 +322,25 @@
           " target="_blank"><i class='bx bxl-discord-alt'></i></a>
           <a href="#"><i class='bx bxl-youtube'></i></a>
         </div>
-        <div class="rights">
+        <!-- <div class="rights">
           <br>
           <p> @Right Reserved by Abhi, Aditya, Yadnesh</p>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="contactus">
       <h2 class="footer-heading">Contact Us</h2>
       <div class="contactus-content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quaerat?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, cumque!</p>
+        <p><span>Address</span> : Kennedy Road, Near RTO, Pune - 411 001, Maharashtra, India</p>
+        <p><span>Email</span> : ioit.cesa_president@aissmsioit.org</p>
       </div>
     </div>
   </footer>
 
   </footer>
   <!-- Script  -->
-  <script href="./app.js"></script>
-
-  <script>
-    function Toggle() {
-      const navbar = document.getElementById("nav");
-      // navbar.style.display="block";
-      console.log('clicked');
-      if (navbar.style.display === "block") {
-        navbar.style.display = "none";
-      }
-      else {
-        navbar.style.display = "block";
-      }
-
-    }
-
-    // script.js
-const carousel = document.querySelector(".testimonial-carousel");
-const cards = document.querySelectorAll(".testimonial-card");
-const cardWidth = cards[0].offsetWidth;
-
-let currentIndex = 0;
-
-function showCard(index) {
-    cards.forEach((card) => {
-        card.style.transform = `translateX(-${index * cardWidth}px)`;
-    });
-}
-
-function nextCard() {
-    currentIndex = (currentIndex + 1) % cards.length;
-    showCard(currentIndex);
-}
-
-function prevCard() {
-    currentIndex = (currentIndex - 1 + cards.length) % cards.length;
-    showCard(currentIndex);
-}
-
-// You can also add event listeners for arrow buttons or a timer to automatically switch cards.
-
-
-
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
 
 </body>
 
