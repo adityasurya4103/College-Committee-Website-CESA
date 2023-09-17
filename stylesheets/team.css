@@ -10,7 +10,7 @@ body{
     width: 100vw;
 }
 
-.Team {
+.c-Team {
     text-align: center;
     font-size: 500%; 
     /* font-size: 55px;  */
@@ -23,12 +23,12 @@ body{
 }
 
 @media screen and (max-width:565px) {
-    .Team{
+    .c-Team{
         font-size: 300%;
     }
 }
 
-.Team-sec{
+.c-Team-sec{
     /* margin-bottom: 0%; */
 }
 
