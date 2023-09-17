@@ -12,6 +12,7 @@
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
   <!-- Stylesheet Link  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   <link rel="stylesheet" href="stylesheets/style.css" />
 
@@ -44,9 +45,9 @@
 
   <!-- Main Section  -->
   <section class="home" id="home">
-    <div class="home-content">
+    <div class="home-content" data-aos="fade-right">
       <h3>AISSMS IOIT</h3>
-      <h1 class="text" data-fill-text="CESA 2K23">CESA <span>2K23</span></h1>
+      <h1 class="text" data-fill-text="CESA 2K23">CESA <span style="color: #c7c6c7;">2K23</span></h1>
       <h3>Computer Engineering Student Association</h3>
 
       <!-- Social Media  -->
@@ -62,16 +63,16 @@
     </div>
 
     <!-- logo  -->
-    <div class="home-img">
+    <div class="home-img" data-aos="fade-left">
       <img src="images/main-logo-new.png" alt="logo" class="logo-image" />
     </div>
   </section>
 
   <!-- Event Section  -->
   <section class="events" id="events">
-    <h2 class="heading">Events</h2>
+    <h2 class="heading" data-aos="fade-up">Events</h2>
 
-    <div class="event-container">
+    <div class="event-container" data-aos="fade-up" data-aos-delay="100">
       <div class="event-box">
         <i class='bx bxs-music'></i>
         <h3>Cultural</h3>
@@ -99,13 +100,13 @@
 
   <!-- Team Section  -->
   <section class="team" id="team">
-    <h2 class="heading">Our Team</h2>
-    <div class="team-content">
+    <h2 class="heading" data-aos="fade-up">Our Team</h2>
+    <div class="team-content" data-aos="fade-right">
       <div class="team-img">
         <img src="images/team2.png" alt="team">
       </div>
 
-      <div class="team-content">
+      <div class="team-content" data-aos="fade-left">
         <div>
           <h3>CESA 2K23</h3>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptas reiciendis magnam vitae. Magnam,
@@ -120,15 +121,16 @@
   <!-- ~~~~~~~ Testimonials-Section-Start ~~~~~~~~~~~~~ -->
 
   <section class="testimonials" id="testimonials">
-    <h2 class="heading">Testimonials</h2>
+    <h2 class="heading" data-aos="fade-up" data-aos-duration="800">Testimonials</h2>
 
     <!-- Swiper -->
-    <div class="swiper mySwiper">
+    <div class="swiper mySwiper" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
       <div class="swiper-wrapper">
 
         <div class="swiper-slide">
           <div class="testimonial-card">
-            <div class="front">
+            <!-- onclick="flipCard(this)" //add this inside the card for click flip -->
+          <div class="front">
               <div>
                 <div class="st-quote">
                   &#8220;
@@ -156,7 +158,8 @@
 
         <div class="swiper-slide">
           <div class="testimonial-card">
-            <div class="front">
+            <!-- onclick="flipCard(this)" //add this inside the card for click flip -->
+          <div class="front">
               <div>
                 <div class="st-quote">
                   &#8220;
@@ -184,7 +187,8 @@
 
         <div class="swiper-slide">
           <div class="testimonial-card">
-            <div class="front">
+            <!-- onclick="flipCard(this)" //add this inside the card for click flip -->
+          <div class="front">
               <div>
                 <div class="st-quote">
                   &#8220;
@@ -212,7 +216,8 @@
 
         <div class="swiper-slide">
           <div class="testimonial-card">
-            <div class="front">
+            <!-- onclick="flipCard(this)" //add this inside the card for click flip -->
+          <div class="front">
               <div>
                 <div class="st-quote">
                   &#8220;
@@ -240,7 +245,8 @@
 
         <div class="swiper-slide">
           <div class="testimonial-card">
-            <div class="front">
+            <!-- onclick="flipCard(this)" //add this inside the card for click flip -->
+          <div class="front">
               <div>
                 <div class="st-quote">
                   &#8220;
@@ -268,7 +274,8 @@
 
         <div class="swiper-slide">
           <div class="testimonial-card">
-            <div class="front">
+            <!-- onclick="flipCard(this)" //add this inside the card for click flip -->
+          <div class="front">
               <div>
                 <div class="st-quote">
                   &#8220;
@@ -310,7 +317,7 @@
 
   <footer class="footer" id="footer">
 
-    <div class="followus">
+    <div class="followus" data-aos="fade-right" data-aos-offset="100">
       <h2 class="footer-heading">Follow Us</h2>
       <div>
         <div class="social-media-footer">
@@ -328,7 +335,7 @@
         </div> -->
       </div>
     </div>
-    <div class="contactus">
+    <div class="contactus" data-aos="fade-left" data-aos-offset="100">
       <h2 class="footer-heading">Contact Us</h2>
       <div class="contactus-content">
         <p><span>Address</span> : Kennedy Road, Near RTO, Pune - 411 001, Maharashtra, India</p>
@@ -339,6 +346,13 @@
 
   </footer>
   <!-- Script  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 300,
+      duration: 750,
+    });
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <script type="text/javascript" src="app.js"></script>
 

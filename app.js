@@ -25,5 +25,15 @@ var swiper = new Swiper(".mySwiper", {
       slideShadows: true,
     },
     loop: true,
-  });
+    autoplay: {
+        delay: 3000, 
+        disableOnInteraction: false, 
+    },
+});
+
+
+// function flipCard(card) {
+//     card.classList.toggle('flipped');
+// }
+
 
