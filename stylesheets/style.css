@@ -175,7 +175,7 @@ section {
   color: var(--text-color);
   -webkit-text-stroke: 0px transparent;
   overflow: hidden;
-  animation: fill 5s ease-in-out infinite;
+  animation: fill 3s ease-in-out infinite;
 }
 
 @keyframes fill {
@@ -194,11 +194,22 @@ section {
 .logo-image {
   width: 30vw;
   height: 30vw;
-  transition: transform 1s ease-in-out; /* Apply a smooth transition effect */
+  /* transition: transform 1s ease-in-out; Apply a smooth transition effect */
+  animation: coinFlip 0.5s ease-in-out 1.2s forwards, glow 2s ease-in-out infinite alternate; /* Apply the coin flip animation on hover */
 }
-
+/* 
 .logo-image:hover {
-  animation: coinFlip 1s ease-in-out forwards; /* Apply the coin flip animation on hover */
+  animation: 
+  box-shadow: 0 0 3rem var(--main-color);
+} */
+
+@keyframes glow {
+  0% {
+    box-shadow: none;
+  }
+  100% {
+    box-shadow: 0 0 3rem var(--main-color);
+  }
 }
 
 /* Define the keyframes for the coin flip animation */
@@ -207,7 +218,7 @@ section {
     transform: perspective(900px) rotateY(0deg); /* Start with no rotation */
   }
   50% {
-    transform: perspective(900px) rotateY(180deg); /* Flip halfway through */
+    transform: perspective(900px) rotateY(180deg) scale(1.2); /* Flip halfway through */
   }
   100% {
     transform: perspective(900px) rotateY(360deg); /* Complete the flip */
@@ -218,7 +229,6 @@ section {
 .home-img img{
   border: 2px solid white;
   border-radius: 50%;
-  box-shadow: 0 0 3rem var(--main-color);
   width: 30vw;
   height: 30vw;
 }
@@ -333,7 +343,21 @@ section {
 .team-img img{
   width: 40vw;
   height: auto;
+  /* animation: glowteam 1s ease-in-out infinite alternate; */
 }
+
+.team-img img:hover{
+  filter: drop-shadow(5px 5px 5px var(--main-color));
+}
+
+/* @keyframes glowteam {
+  0% {
+    filter: drop-shadow(1px 1px 1px var(--main-color))
+  }
+  100% {
+    filter: drop-shadow(5px 5px 5px var(--main-color))
+  }
+} */
 
 .team-content div{
   display: block;
@@ -471,6 +495,22 @@ section {
   margin-bottom: 1rem;
 }
 
+/* .testimonial-card.flipped {
+  transform: rotateY(180deg);
+}
+
+.testimonial-card.flipped .front {
+  transform: rotateY(180deg);
+}
+
+.testimonial-card.flipped .back {
+  transform: rotateY(0deg);
+} */
+
+
+
+
+
 
 
 /* footer section */
@@ -524,6 +564,10 @@ footer{
 
 .followus, .contactus{
   text-align: left;
+}
+
+.contactus-content{
+  margin-top: 1rem;
 }
 
 
@@ -643,6 +687,9 @@ span{
 }
 
 @media(max-width: 450px){
+  /* .home-img{
+    margin-left: 2.8rem;
+  } */
 
   .home-img img{
     width: 80vw;  
