@@ -31,6 +31,22 @@
 ![Team Page](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/4c6ae98e-d9a9-4624-8bd7-3cccdc5255c4)
 
 
+# RESPONSIVE OUTPUT:
+
+Home Page:
+
+![Home page responsive](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/c8cee5f0-e3f6-447f-8559-b9099e7c278b)
+
+Responsive Navigation Bar:
+![navigation bar responsive](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/058588bf-3814-412f-bbca-6df1cfa0ebc0)
+
+Responsive Past Glimpes:
+![responsive Cultural Page past glimpses](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/83227d73-b95e-40e1-b402-236666b11442)
+
+Responsive Upcoming Events:
+![responsive upcoming events](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/e1a0caaf-3530-445d-902c-8b433b1b3faa)
+
+
 Cesaioit.com is the vibrant online hub for the Computer Engineering Student Association (CESA), where technology enthusiasts unite to explore, learn, and celebrate their passion for computer engineering. As you step into the digital realm of CESA, the homepage welcomes you with the dynamic CESA logo, accompanied by a compelling description that encapsulates the essence of the association.
 
 Navigating through the website, you'll find an array of exciting features. The Upcoming Events section keeps you in the loop about the latest and greatest happenings, complete with eye-catching animations that add a touch of flair to the anticipation. Delve into the Past Glimpses section to relive the magic of previous events through visually captivating snapshots and videos, bringing back fond memories with each scroll.
