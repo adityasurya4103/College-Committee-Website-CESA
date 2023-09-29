@@ -3,18 +3,31 @@
 # output:-
 
  Home Page:
+ 
 ![Home Page_cesaioit com](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/d4809e88-0e0e-4fe4-8ede-ea667e42d096)
+ 
  Home Page Testimonials:
+ 
 ![Home Page Testimonials](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/9323b4f9-22e5-437e-b6b7-3517c0044166)
+
  Cultural Events Past Glimpses:
+ 
 ![Cultural event Page](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/c0572a37-e7e7-46eb-b62b-eadedafb7aec)
+
  Upcomoing Cultural Events:
+ 
 ![Cultural Event Page 1](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/424718a0-afae-413c-812c-783de1f4de50)
+
  Upcomoing Technical Events:
+ 
 ![Technical Event Page](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/8c50e0fa-360d-41d7-a614-68fe59c6db4c)
+
  Upcomoing Sports Events:
+ 
 ![Sports page](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/1e45feaa-743e-43bc-9fc4-2b26b7c9b4ef)
+
  Team Page:
+ 
 ![Team Page](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/4c6ae98e-d9a9-4624-8bd7-3cccdc5255c4)
 
 
