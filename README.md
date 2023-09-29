@@ -5,12 +5,11 @@
  Home Page:
  
 ![Home Page_cesaioit com](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/d4809e88-0e0e-4fe4-8ede-ea667e42d096)
- 
  Home Page Testimonials:
  
 ![Home Page Testimonials](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/9323b4f9-22e5-437e-b6b7-3517c0044166)
 
- Cultural Events Past Glimpses:
+Cultural Events Past Glimpses:
  
 ![Cultural event Page](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/c0572a37-e7e7-46eb-b62b-eadedafb7aec)
 
@@ -38,12 +37,15 @@ Home Page:
 ![Home page responsive](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/c8cee5f0-e3f6-447f-8559-b9099e7c278b)
 
 Responsive Navigation Bar:
+
 ![navigation bar responsive](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/058588bf-3814-412f-bbca-6df1cfa0ebc0)
 
 Responsive Past Glimpes:
+
 ![responsive Cultural Page past glimpses](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/83227d73-b95e-40e1-b402-236666b11442)
 
 Responsive Upcoming Events:
+
 ![responsive upcoming events](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/e1a0caaf-3530-445d-902c-8b433b1b3faa)
 
 
