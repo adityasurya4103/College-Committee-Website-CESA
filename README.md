@@ -27,7 +27,7 @@
 ![Sports page](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/1e45feaa-743e-43bc-9fc4-2b26b7c9b4ef)
 
  Team Page:
- 
+
 ![Team Page](https://github.com/adityasurya4103/CESA_WEBSITE_-college-committee-website-/assets/97177344/4c6ae98e-d9a9-4624-8bd7-3cccdc5255c4)
 
 
